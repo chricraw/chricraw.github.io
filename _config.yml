@@ -6,6 +6,12 @@ sass:
   style: compressed
   sass_dir: assets/css
 
+plugins:
+  - jekyll-paginate
+
+paginate: 3
+paginate_path: "/posts/page:num"
+
 defaults:
   -
     scope:
