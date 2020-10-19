@@ -1,0 +1,18 @@
+---
+layout: default
+title: Posts
+---
+
+<main role="main" class="container">
+    {% for post in site.posts limit:3 %}
+        <div>
+            <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <!– call the featured-post-image.html template file –>
+            {% if post.thumbnail-image %}{% include post-image.html image=post.thumbnail-image alt=post.image-alt %}{% endif %}
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
+        </div>   
+    {% endfor %}
+  </main>

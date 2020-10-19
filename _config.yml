@@ -1,7 +1,10 @@
 title: "Chris Crawford"
+description: ""
 baseurl: ""
 
 sass:
   style: compressed
   sass_dir: assets/css
+
+
 
