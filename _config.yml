@@ -6,5 +6,17 @@ sass:
   style: compressed
   sass_dir: assets/css
 
-
-
+defaults:
+  -
+    scope:
+      path: ""
+      type: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Chris"
