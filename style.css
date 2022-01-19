@@ -1,0 +1,71 @@
+body, html {
+  height: 100%;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  align-items: start;
+  overflow: hidden;
+}
+
+body > * {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+#bg, #slider {
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#bg {
+  background-image: url(/background-b.jpg);
+}
+
+#slider {
+  background-image: url(/background-a.png);
+  animation: fade 8s ease-in forwards;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.menu {
+  font-size: 12em;
+  z-index: 1000;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:active {
+  color: white;
+}
