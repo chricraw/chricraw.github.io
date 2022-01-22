@@ -33,7 +33,16 @@ body > * {
 
 #elsediv {
   background-image: url(/chrome2dome.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-transform: capitalize full-width;
+  font-size: 12em;
 }
+
 
 @keyframes fade {
   0% {
