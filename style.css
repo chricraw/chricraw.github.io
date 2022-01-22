@@ -39,8 +39,6 @@ body > * {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  text-transform: capitalize full-width;
-  font-size: 12em;
 }
 
 
@@ -82,4 +80,9 @@ a:hover {
 
 a:active {
   color: white;
+}
+
+h1 {
+  text-transform: capitalize full-width;
+  font-size: 12em;
 }
