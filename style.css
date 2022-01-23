@@ -23,11 +23,11 @@ body > * {
 }
 
 #bg {
-  background-image: url(/background-b.jpg);
+  background-image: url("background-b.jpg");
 }
 
 #slider {
-  background-image: url(/background-a.png);
+  background-image: url("background-a.png");
   animation: fade 8s ease-in alternate infinite;
 }
 
