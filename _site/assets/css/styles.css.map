@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		".current {\r\n    color: green;\r\n}\r\n\r\n.responsive {\r\n    max-width: 100%;\r\n    height: auto;\r\n  }\r\n\r\nul.navbar {\r\n    list-style-type: none;\r\n    margin: 0;\r\n    padding: 0;\r\n    overflow: hidden;\r\n }\r\n\r\nli.menu {\r\n    float: left;\r\n  }\r\n\r\nli.menu a {\r\n    display:block;\r\n    text-align: center;\r\n    padding: 14px 16px;\r\n    text-decoration: none;\r\n}\r\n\r\nli.menu:last-child {\r\n    border-right: none;\r\n  }"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf;;AAED,AAAA,WAAW,CAAC,EACR,SAAS,EAAE,IAAI,EACf,MAAM,EAAE,IAAI,GACb;;AAEH,AAAA,EAAE,AAAA,OAAO,CAAC,EACN,eAAe,EAAE,IAAI,EACrB,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,EACV,QAAQ,EAAE,MAAM,GAClB;;AAEF,AAAA,EAAE,AAAA,KAAK,CAAC,EACJ,KAAK,EAAE,IAAI,GACZ;;AAEH,AAAA,EAAE,AAAA,KAAK,CAAC,CAAC,CAAC,EACN,OAAO,EAAC,KAAK,EACb,UAAU,EAAE,MAAM,EAClB,OAAO,EAAE,SAAS,EAClB,eAAe,EAAE,IAAI,GACxB;;AAED,AAAA,EAAE,AAAA,KAAK,CAAC,UAAU,CAAC,EACf,YAAY,EAAE,IAAI,GACnB"
+}

@@ -1,0 +1,30 @@
+.current {
+    color: green;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+
+li.menu {
+    float: left;
+  }
+
+li.menu a {
+    display:block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.menu:last-child {
+    border-right: none;
+  }
